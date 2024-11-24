@@ -1,0 +1,146 @@
+body{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.2vw solid rgb(23,144,241);
+  height: 95vh;
+  box-shadow: 1px 1px 5px rgb(23,144,241);
+  border-radius: 10px;
+  padding: 0.5vw;
+}
+.left h1{
+  font-size: 3vw;
+  color: rgb(23,144,241);
+}
+
+
+
+
+
+
+p{
+  color: green;
+  font-size: 2vw;
+}
+
+.btnConatiner{
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  height: 9vw;
+  width: 9vw;
+  margin: 1vw;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+  /* transition: transform 0.5s alternate; */
+}
+/* .btn:focus{
+  transform :scale(0.95);
+} */
+
+.btn1{
+  background-color: antiquewhite;
+}
+.btn2{
+  background-color: rgb(186, 250, 238);
+}
+.btn3{
+  background-color: rgb(234, 248, 155);
+}
+.btn4{
+  background-color: rgb(255, 170, 197);
+}
+
+.flash{
+  background-color: white;
+}
+
+.userFlash{
+  background-color: rgb(23,144,241);
+}
+
+
+.rightOuter{
+  width: 28vw;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 96vh;
+  overflow-y: scroll;
+}
+
+.right{
+  width: width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 96vh;
+}
+
+.right h1{
+  color: rgb(23,144,241);
+  font-size: 1.5vw;
+}
+
+.right ul li{
+  color: green;
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+
+/*.......................................*/
+
+
+.btnn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-weight: 700;
+  width: 3vw;
+  height: 3vw;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+
+
+/*..show hide instructions...............................................*/
+
+
+.instructionBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  height: 3vw;
+  background-color: rgb(23,144,241);
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  margin-bottom:1vw;
+  cursor: pointer;
+}
+
+
+.showHideInstuctions{
+  display:none;
+}

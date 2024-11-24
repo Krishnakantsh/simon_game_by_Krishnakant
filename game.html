@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="game.css">
+  <title>Simon game</title>
+</head>
+<body>
+
+  <div class="left">
+
+    <h1>Game developed by <strong>Krishna Kant Sharma</strong> </h1>
+    <p>Press any key to start</p>
+  
+    <div class="btnConatiner">
+      <div class="btn btn1" id="btn1"  tabindex="0"></div>
+      <div class="btn btn2"  id="btn2" tabindex="0"></div>
+      <div class="btn btn3"  id="btn3"  tabindex="0"></div>
+      <div class="btn btn4"  id="btn4"  tabindex="0"></div>
+
+    </div>
+
+    <div class="instructionBtn" onclick="showHideInstuctions()">
+        Read instructions to play game
+    </div>
+
+  </div>
+  <div class="rightOuter">
+  <div class="right">
+    <h1>Instruction for playing this game  </h1>
+    <div class="instuctionBoxConatiner" style="display: flex; margin-top: 1vw; gap:0.8vw ;">
+      <div class="btnn btn1"    >1</div>
+      <div class="btnn btn2"   >2</div>
+      <div class="btnn btn3"   >3</div>
+      <div class="btnn btn4"   >4</div>
+    </div>
+    <ul>
+      <li>Press any key to start the game by your keyboard .</li>
+      <li>When you press any key then any one  box blink (white color) for a nano time. </li>
+      <li>Remember the blink box number </li>
+      <li>Now you need to press same box which is blick Automatically.</li>
+      <li>When you press on box then box color will be green for a small time.</li>
+      <li>If you press which box that is blink in starting then you will achieve level two.</li>
+      <li>When you reach level two then also box blink automatically remember box number.</li>
+      <li>Now you need to press first which box that is blink at level 1 and then press box which is blink level 2.</li>
+      <li>Suppose when you are level 1 and then blink box is 2.</li>
+      <li>Now you need to press box no. 2 if you press box no. 2 then you will reach level 2. Wrong box press got game over </li>
+      <li>Suppose you now level 2 and now blink box is 1.</li>
+      <li>Now you need to press box first which is blick at level 1 ( box no. 2 ) and after that press box no. 1 </li>
+      <li>If all set Then you will reach level 3 and also remember blink box suppose blink box is 4.</li>
+      <li>You need to press box no.  2 => 1 => 4.  if you follow this sequence then you reach one level up </li>
+      <li>Play untill when you can remember blink sequence </li>
+      <li>At any level when you press any wrong box no. Your game is over, Now you need to reset your game by press any key on your keyboard..</li>
+    </ul>
+  </div>
+</div>
+ 
+
+  <script src="game.js"></script>
+</body>
+</html>
